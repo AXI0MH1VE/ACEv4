@@ -1,0 +1,20 @@
+{
+  "name": "@ace-genesys/workflow",
+  "version": "4.0.0",
+  "description": "Workflow orchestration layer",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@ace-genesys/core": "workspace:*",
+    "@ace-genesys/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "typescript": "^5.3.0"
+  }
+}

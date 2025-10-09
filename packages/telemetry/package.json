@@ -1,0 +1,19 @@
+{
+  "name": "@ace-genesys/telemetry",
+  "version": "4.0.0",
+  "description": "Telemetry and monitoring systems",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@ace-genesys/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "typescript": "^5.3.0"
+  }
+}

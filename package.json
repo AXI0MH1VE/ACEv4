@@ -1,0 +1,22 @@
+{
+  "name": "ace-genesys-v4",
+  "version": "4.0.0",
+  "description": "ACE Genesys Unified TypeScript Modular Architecture",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "test": "pnpm run --recursive test",
+    "lint": "pnpm run --recursive lint",
+    "clean": "pnpm run --recursive clean && rimraf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.x",
+    "rimraf": "^5.x",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
